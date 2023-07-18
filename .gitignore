@@ -36,3 +36,6 @@ lerna-debug.log*
 
 # Carpeta Mongo generada por Docker
 /mongo
+
+#ENV
+.env

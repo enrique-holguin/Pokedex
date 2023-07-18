@@ -13,6 +13,7 @@ async function bootstrap() {
       transformOptions: { enableImplicitConversion: true },
     }),
   );
-  await app.listen(3000);
+  await app.listen(process.env.PORT);
+  console.log(`Servidor corriendo en puerto `);
 }
 bootstrap();
